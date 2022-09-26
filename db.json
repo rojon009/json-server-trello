@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$vAHjJ9lo6j38sfZpykmw1uFXgSoA.4F3bK3Jza/AMU2/l1Ezfbmz.",
+      "name": "test1",
+      "id": 1
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$vAHjJ9lo6j38sfZpykmw1uFXgSoA.4F3bK3Jza/AMU2/l1Ezfbmz.",
+      "name": "test2",
+      "id": 2
+    },
+    {
+      "email": "test3@gmail.com",
+      "password": "$2a$10$vAHjJ9lo6j38sfZpykmw1uFXgSoA.4F3bK3Jza/AMU2/l1Ezfbmz.",
+      "name": "test3",
+      "id": 3
+    },
+    {
+      "email": "test4@gmail.com",
+      "password": "$2a$10$vAHjJ9lo6j38sfZpykmw1uFXgSoA.4F3bK3Jza/AMU2/l1Ezfbmz.",
+      "name": "test4",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "name": "DEV",
+      "description": "Devops",
+      "color": "teal",
+      "creator": {
+        "email": "test4@gmail.com",
+        "name": "test4",
+        "id": 4
+      },
+      "timestamp": 1664123198838,
+      "members": [
+        {
+          "email": "test4@gmail.com",
+          "name": "test4",
+          "id": 4
+        }
+      ],
+      "participants": "test4@gmail.com",
+      "status": "backlog",
+      "id": 8
+    },
+    {
+      "name": "Design",
+      "description": "Make awesome UI",
+      "color": "red",
+      "creator": {
+        "email": "test1@gmail.com",
+        "name": "test1",
+        "id": 1
+      },
+      "timestamp": 1664155349565,
+      "members": [
+        {
+          "email": "test1@gmail.com",
+          "name": "test1",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "name": "test2",
+          "email": "test2@gmail.com"
+        }
+      ],
+      "participants": "test1@gmail.com-test2@gmail.com",
+      "status": "ready",
+      "id": 9
+    },
+    {
+      "name": "Frontend",
+      "description": "Setup React",
+      "color": "yellow",
+      "creator": {
+        "email": "test1@gmail.com",
+        "name": "test1",
+        "id": 1
+      },
+      "timestamp": 1664155387486,
+      "members": [
+        {
+          "email": "test1@gmail.com",
+          "name": "test1",
+          "id": 1
+        },
+        {
+          "id": 3,
+          "name": "test3",
+          "email": "test3@gmail.com"
+        },
+        {
+          "id": 2,
+          "name": "test2",
+          "email": "test2@gmail.com"
+        }
+      ],
+      "participants": "test1@gmail.com-test3@gmail.com-test2@gmail.com",
+      "status": "doing",
+      "id": 10
+    },
+    {
+      "name": "Backend",
+      "description": "Setup Express Application",
+      "color": "blue",
+      "creator": {
+        "email": "test1@gmail.com",
+        "name": "test1",
+        "id": 1
+      },
+      "timestamp": 1664155403337,
+      "members": [
+        {
+          "email": "test1@gmail.com",
+          "name": "test1",
+          "id": 1
+        },
+        {
+          "id": 4,
+          "name": "test4",
+          "email": "test4@gmail.com"
+        },
+        {
+          "id": 3,
+          "name": "test3",
+          "email": "test3@gmail.com"
+        }
+      ],
+      "participants": "test1@gmail.com-test4@gmail.com-test3@gmail.com",
+      "status": "review",
+      "id": 11
+    },
+    {
+      "name": "DevOps",
+      "description": "Setup Docker",
+      "color": "slate",
+      "creator": {
+        "email": "test1@gmail.com",
+        "name": "test1",
+        "id": 1
+      },
+      "timestamp": 1664155421587,
+      "members": [
+        {
+          "email": "test1@gmail.com",
+          "name": "test1",
+          "id": 1
+        },
+        {
+          "id": 4,
+          "name": "test4",
+          "email": "test4@gmail.com"
+        }
+      ],
+      "participants": "test1@gmail.com-test4@gmail.com",
+      "status": "blocked",
+      "id": 12
+    },
+    {
+      "name": "Marketing",
+      "description": "Prepare Poster",
+      "color": "lime",
+      "creator": {
+        "email": "test1@gmail.com",
+        "name": "test1",
+        "id": 1
+      },
+      "timestamp": 1664155447191,
+      "members": [
+        {
+          "email": "test1@gmail.com",
+          "name": "test1",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "name": "test2",
+          "email": "test2@gmail.com"
+        }
+      ],
+      "participants": "test1@gmail.com-test2@gmail.com",
+      "status": "backlog",
+      "id": 13
+    },
+    {
+      "name": "Writer",
+      "description": "Prepare content",
+      "color": "teal",
+      "creator": {
+        "email": "test2@gmail.com",
+        "name": "test2",
+        "id": 2
+      },
+      "timestamp": 1664155622241,
+      "members": [
+        {
+          "email": "test2@gmail.com",
+          "name": "test2",
+          "id": 2
+        },
+        {
+          "id": 1,
+          "name": "test1",
+          "email": "test1@gmail.com"
+        },
+        {
+          "id": 3,
+          "name": "test3",
+          "email": "test3@gmail.com"
+        }
+      ],
+      "participants": "test2@gmail.com-test1@gmail.com-test3@gmail.com",
+      "status": "backlog",
+      "id": 14
+    },
+    {
+      "name": "Database",
+      "description": "Deploy database on mLab",
+      "color": "rose",
+      "creator": {
+        "email": "test3@gmail.com",
+        "name": "test3",
+        "id": 3
+      },
+      "timestamp": 1664160675074,
+      "members": [
+        {
+          "email": "test3@gmail.com",
+          "name": "test3",
+          "id": 3
+        },
+        {
+          "id": 1,
+          "name": "test1",
+          "email": "test1@gmail.com"
+        },
+        {
+          "id": 4,
+          "name": "test4",
+          "email": "test4@gmail.com"
+        }
+      ],
+      "participants": "test3@gmail.com-test1@gmail.com-test4@gmail.com",
+      "status": "done",
+      "id": 15
+    },
+    {
+      "name": "Deploy",
+      "description": "Deploy frontend and backend",
+      "color": "purple",
+      "creator": {
+        "email": "test2@gmail.com",
+        "name": "test2",
+        "id": 2
+      },
+      "timestamp": 1664161011457,
+      "members": [
+        {
+          "email": "test2@gmail.com",
+          "name": "test2",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "name": "test3",
+          "email": "test3@gmail.com"
+        },
+        {
+          "id": 1,
+          "name": "test1",
+          "email": "test1@gmail.com"
+        }
+      ],
+      "participants": "test2@gmail.com-test3@gmail.com-test1@gmail.com",
+      "status": "backlog",
+      "id": 16
+    }
+  ]
+}
