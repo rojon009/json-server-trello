@@ -41,9 +41,14 @@
           "email": "test4@gmail.com",
           "name": "test4",
           "id": 4
+        },
+        {
+          "id": 3,
+          "name": "test3",
+          "email": "test3@gmail.com"
         }
       ],
-      "participants": "test4@gmail.com",
+      "participants": "test4@gmail.com-test3@gmail.com",
       "status": "backlog",
       "id": 8
     },
@@ -134,58 +139,6 @@
       "participants": "test1@gmail.com-test4@gmail.com-test3@gmail.com",
       "status": "review",
       "id": 11
-    },
-    {
-      "name": "DevOps",
-      "description": "Setup Docker",
-      "color": "slate",
-      "creator": {
-        "email": "test1@gmail.com",
-        "name": "test1",
-        "id": 1
-      },
-      "timestamp": 1664155421587,
-      "members": [
-        {
-          "email": "test1@gmail.com",
-          "name": "test1",
-          "id": 1
-        },
-        {
-          "id": 4,
-          "name": "test4",
-          "email": "test4@gmail.com"
-        }
-      ],
-      "participants": "test1@gmail.com-test4@gmail.com",
-      "status": "blocked",
-      "id": 12
-    },
-    {
-      "name": "Marketing",
-      "description": "Prepare Poster",
-      "color": "lime",
-      "creator": {
-        "email": "test1@gmail.com",
-        "name": "test1",
-        "id": 1
-      },
-      "timestamp": 1664155447191,
-      "members": [
-        {
-          "email": "test1@gmail.com",
-          "name": "test1",
-          "id": 1
-        },
-        {
-          "id": 2,
-          "name": "test2",
-          "email": "test2@gmail.com"
-        }
-      ],
-      "participants": "test1@gmail.com-test2@gmail.com",
-      "status": "backlog",
-      "id": 13
     },
     {
       "name": "Writer",
@@ -279,6 +232,112 @@
       "participants": "test2@gmail.com-test3@gmail.com-test1@gmail.com",
       "status": "backlog",
       "id": 16
+    },
+    {
+      "name": "DevOps",
+      "description": "Need to setup the VPS",
+      "color": "lime",
+      "creator": {
+        "email": "test4@gmail.com",
+        "name": "test4",
+        "id": 4
+      },
+      "timestamp": 1664292759683,
+      "members": [
+        {
+          "email": "test4@gmail.com",
+          "name": "test4",
+          "id": 4
+        },
+        {
+          "id": 1,
+          "name": "test1",
+          "email": "test1@gmail.com"
+        }
+      ],
+      "participants": "test4@gmail.com-test1@gmail.com",
+      "status": "backlog",
+      "id": 17
+    }
+  ],
+  "projects": [
+    {
+      "teamId": 17,
+      "name": "Project 1",
+      "description": "Portfolio Frontend",
+      "creator": {
+        "email": "test4@gmail.com",
+        "name": "test4",
+        "id": 4
+      },
+      "timestamp": 1664292854572,
+      "status": "backlog",
+      "id": 1
+    },
+    {
+      "teamId": 8,
+      "name": "Project 2",
+      "description": "Portfolio Figma",
+      "creator": {
+        "email": "test4@gmail.com",
+        "name": "test4",
+        "id": 4
+      },
+      "timestamp": 1664292875387,
+      "status": "backlog",
+      "id": 2
+    },
+    {
+      "teamId": 10,
+      "name": "Portfolio Design",
+      "description": "Deliver to the design",
+      "creator": {
+        "email": "test3@gmail.com",
+        "name": "test3",
+        "id": 3
+      },
+      "timestamp": 1664293112199,
+      "status": "backlog",
+      "id": 3
+    },
+    {
+      "teamId": 14,
+      "name": "Complete Writing ",
+      "description": "Deliver writing to the Fronend Developer",
+      "creator": {
+        "email": "test3@gmail.com",
+        "name": "test3",
+        "id": 3
+      },
+      "timestamp": 1664293372689,
+      "status": "done",
+      "id": 4
+    },
+    {
+      "teamId": 16,
+      "name": "CI/CD",
+      "description": "Create CI/CD and deliver to the backend developer",
+      "creator": {
+        "email": "test2@gmail.com",
+        "name": "test2",
+        "id": 2
+      },
+      "timestamp": 1664293424921,
+      "status": "ready",
+      "id": 5
+    },
+    {
+      "teamId": 9,
+      "name": "Figma Design",
+      "description": "Complete E-commerce Figma design ",
+      "creator": {
+        "email": "test2@gmail.com",
+        "name": "test2",
+        "id": 2
+      },
+      "timestamp": 1664293510405,
+      "status": "backlog",
+      "id": 6
     }
   ]
 }

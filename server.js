@@ -19,7 +19,7 @@ app.use(middlewares);
 const rules = auth.rewriter({
   users: 640,
   teams: 660,
-  messages: 660,
+  projects: 660,
 });
 
 app.use(rules);
